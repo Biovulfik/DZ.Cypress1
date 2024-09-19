@@ -1,0 +1,19 @@
+{
+  "name": "dz.cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "web:headed": "cypress run --config-file cypress.config.js --browser chrome --headed",
+    "web:headless": "cypress run --config-file cypress.config.js --browser chrome --headless",
+    "phone:headed": "cypress run --config-file cypress.config.phone.js --browser chrome --headed",
+    "phone:headless": "cypress run --config-file cypress.config.phone.js --browser chrome --headless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.1",
+    "cypress": "^13.14.2"
+  }
+}
